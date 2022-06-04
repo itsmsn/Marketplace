@@ -1,0 +1,64 @@
+/* SellNow__section */
+.SellNow-max-width {
+  max-width: 1400px;
+}
+.SellNow__section {
+  background-image: url(../../assets/sellnewBgImg.png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.SellNow_Box {
+  border: 1px solid #fff;
+  border-radius: 9px;
+  width: fit-content;
+  margin: auto;
+}
+.SellNow_Content {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  padding: 0.75rem;
+}
+.right_txtw3 {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.BecomeTxt {
+  margin-bottom: 0px;
+  font-size: 1.1rem;
+}
+.jenarTxt {
+  font-size: 0.9rem;
+  color: #000;
+}
+.Followers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e5e5e5;
+  border-radius: 4px;
+  padding: 0.9rem;
+  margin: 0.9rem 1.2rem;
+  border: 1px solid #fff;
+}
+.followerTxt {
+  font-size: 0.9rem;
+  margin-bottom: 0px;
+  line-height: 0.85rem;
+}
+
+.followerBtn {
+  background-color: var(--clr-red);
+  color: #fff;
+  border: none;
+  font-size: 0.8rem;
+  border-radius: 4px;
+  padding: 0.18rem 1.2rem 0.15rem;
+}
+/* End SellNow__section */

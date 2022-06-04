@@ -1,0 +1,142 @@
+/* Banner */
+.banner__section {
+  background-image: url(../../assets/banner-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.BannerHight {
+  min-height: calc(100vh - 100px);
+}
+.DisplayFlex {
+  display: flex;
+  align-items: center;
+}
+.ButtonWrapper {
+  display: flex;
+  margin-top: 5rem;
+}
+.banner__heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  color: var(--clr-white);
+}
+
+.banner__discription{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.5rem;
+  /* line-height: 3rem; */
+}
+.banner__discriptions{
+  color: var(--clr-white);
+}
+
+.exploreBtn {
+  background-color: var(--clr-red);
+  border: 2px solid var(--clr-red);
+  color: #fff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+.exploreBtn:hover {
+  background-color: transparent;
+  border: 2px solid var(--clr-red);
+}
+.connectNFT {
+  background-color: #14233d;
+  border: 2px solid #14233d;
+
+  color: #fff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 3px;
+}
+.connectNFT:hover {
+  background-color: transparent;
+  border: 2px solid #14233d;
+}
+/* Banner-right-box */
+.Banner-right-box {
+  margin-top: 10rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  color: #fff;
+}
+.top_img {
+  margin-top: -12rem;
+}
+.Walking {
+  font-size: 1.25rem;
+}
+.Start_w3s {
+  font-size: 0.9rem;
+}
+.Eth_w3 {
+  font-size: 1rem;
+}
+.Banner_heart {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem 0.9rem;
+  width: fit-content;
+}
+.place_bid_btn {
+  background-color: var(--clr-red);
+  border: none;
+  width: 7rem;
+  height: 2.8rem;
+  border-radius: 25px;
+  color: #fff;
+  margin-top: 0.3rem;
+  transition: all 0.3s;
+  border: 2px solid var(--clr-red);
+}
+.place_bid_btn:hover {
+  background-color: transparent;
+  border: 2px solid var(--clr-red);
+}
+@media screen and (max-width: 992px) {
+  .BannerHight {
+    min-height: calc(100vh - 75px);
+  }
+  .top_img {
+    margin-top: 0rem;
+  }
+  .Banner-right-box {
+    margin-top: 0rem;
+    height: fit-content;
+    max-width: 580px;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+  .banner__heading {
+    font-size: 3.2rem;
+    padding-top: 3rem;
+  }
+  .DisplayFlex {
+    height: fit-content;
+  }
+  .ButtonWrapper {
+    margin-top: 0rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .banner__heading {
+    padding-top: 4rem;
+    font-size: 3rem;
+  }
+  .Banner-right-box {
+    margin-top: 0rem;
+    margin-bottom: 0px;
+  }
+}
+/* End Banner */

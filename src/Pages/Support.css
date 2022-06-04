@@ -1,0 +1,22 @@
+.image_card1 {
+  width: 80%;
+  margin-top: -36rem;
+  margin-left: -15%;
+}
+
+.container1 {
+  margin-top: 16rem;
+}
+@media (max-width: 400px) {
+  .image_card1 {
+    width: 100%;
+    margin-top: -7rem;
+    margin-bottom: -12rem;
+  }
+  .container1 {
+  margin-top: 5rem;
+}
+.marketHeading{
+  display:none;
+}
+}

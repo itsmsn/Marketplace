@@ -1,0 +1,63 @@
+/* Buy token */
+.buytoken-infinity {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 0.75rem 0px;
+  margin-bottom: 0px;
+}
+.Buytoken_text {
+  position: absolute;
+  width: 52%;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Buytoken_Span {
+  color: #fff;
+  font-size: 6rem;
+  margin-bottom: 0px;
+  transform: translateY(8px);
+  font-weight: 500;
+}
+.Buytoken_text-1 {
+  background: #1e374dd3;
+}
+.Buytoken_text-2 {
+  background: #e5d0f1d5;
+}
+.Buytoken_text-3 {
+  background: #827fd2d7;
+}
+.Buytoken_text-4 {
+  background: #d85035e2;
+}
+.Buytoken_text-5 {
+  background: #332905f3;
+}
+/* trending_slider */
+.trending_slider .owl-nav {
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.trending_slider .owl-nav > .owl-prev {
+  position: absolute;
+  top: calc(50% - 70px);
+  left: -30px;
+}
+.trending_slider .owl-nav > .owl-next {
+  position: absolute;
+  top: calc(50% - 70px);
+  right: -30px;
+}
+.trending_slider .owl-nav [class*="owl-"]:hover {
+  background-color: transparent !important;
+}
+/* End Buy token */

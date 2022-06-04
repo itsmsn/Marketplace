@@ -1,0 +1,38 @@
+.bannerArt{
+  background-image: url("../../assets/Art-Banner.png");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  width: 100%;
+  padding: 17rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner__section1{
+
+    position: absolute;
+    top: 5rem;
+}
+
+@media(max-width:400px)
+{
+    .banner__section1{
+        top: 4rem;
+    }
+    .btop_img{
+        display:none;
+    }
+}
+
+.img-fluid21{
+    margin-left: 5rem;
+    width: 19rem;
+    height: 20rem;
+    margin-top:20rem;
+}
+
+
+.artbanner__heading{
+    color: black;
+}

@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap");
+:root {
+  --clr-white: #fff;
+  --clr-black: #000;
+  --clr-red: #f14d5d;
+  --Sans-pro: "Source Sans Pro", sans-serif;
+  --josefin: "Josefin Sans", sans-serif;
+}
+html {
+  font-size: 16px;
+}
+@media only screen and (max-width: 1370px) {
+  html {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  html {
+    font-size: 12px;
+  }
+}
+body {
+  font-family: var(--josefin);
+}
+.max-width {
+  max-width: 1600px;
+}

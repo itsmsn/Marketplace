@@ -1,0 +1,27 @@
+.cont{
+    width: fit-content;
+    border: 1px solid #dbc5c5;
+    padding: 0px 40px 0px 82px;
+    border-radius: 12px;
+    margin-top: 2rem;
+    height: 4rem;
+}
+.img-fluid1{
+    margin-top: 6px;
+}
+.rating{
+    margin-top: -1rem;
+    margin-left: 4rem;
+}
+@media (max-width:400px)
+{
+
+.rating{
+    margin-top: -1.2rem;
+    margin-left: 5rem;
+}
+.img-fluid1{
+    margin-top: -1px;
+}
+    
+}

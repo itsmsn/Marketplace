@@ -1,0 +1,19 @@
+.bannerEntertainment
+{
+    background-image: url("../../assets/EntertainmentBanner.jpg");
+
+    /* padding: 20rem; */
+}
+.Banner-content{
+    margin-top: 1rem;
+}
+@media (max-width: 400px)
+{
+    .Banner-content{
+        margin-top: 0rem;
+    }
+    .bannerEntertainment
+{
+padding-top: 26rem;
+}
+}

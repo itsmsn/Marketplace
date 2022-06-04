@@ -1,0 +1,90 @@
+  .image_card{
+      margin-top: -41rem;
+  }
+
+  @media (max-width: 400px) {
+      
+    .image_card  {
+        margin-top: -8.2rem;
+    height: 18rem;
+    width: 115%;
+    margin-left: -9rem;
+    }
+}
+
+.textsection
+{
+    margin-top: 12rem;
+}
+
+
+.thinkingimage
+{
+    border-radius: 0px 0px 84px 0px;
+    float: left;
+    width: 304px;
+    margin-right: 19rem;
+}
+
+.container {
+	margin-top: 12rem;
+    padding: 48px 11px 70px;
+    max-width: 90%;
+    margin-bottom: 3rem;
+}
+ 
+ .container__text {
+	 display: inline;
+}
+ 
+@media (min-width: 700px)
+{
+    .marketHeading1 {
+      padding-bottom: 0.6rem;
+      position: relative;
+    }
+    .marketHeading1::before {
+        content: "";
+        width: 6%;
+        margin-left: 2rem;
+        height: 3px;
+        background-color: var(--clr-red);
+        position: absolute;
+        bottom: 0px;
+        z-index: 2;
+    }
+    
+    .marketHeading1::after {
+        content: "";
+        width: 9%;
+        margin-left: -7rem;
+        height: 4px;
+        background-color: #f3a0a8;
+        position: absolute;
+        bottom: 0px;
+        z-index: 1;
+    }
+.mark::before{
+    width: 0;
+}
+.mark::after{
+    width: 26%;
+    top: 1.6rem;
+    left: -7rem;
+}
+.teamH::before{
+    width: 3%;
+    left: 47%;
+    bottom: 13px;
+}
+.teamH::after{
+    width: 5%;
+    left: 47%;
+    bottom: 13px;
+}
+
+}
+.team{
+    margin-bottom: 7rem;
+}
+

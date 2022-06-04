@@ -1,0 +1,164 @@
+/* Footer */
+footer {
+  position: relative;
+  background-color: #f6f6f6;
+}
+.footer-left {
+  position: absolute;
+  left: 25px;
+  top: 0px;
+  height: 100%;
+  width: 22%;
+  z-index: 1;
+}
+.footerwrapper {
+  position: relative;
+  z-index: 2;
+}
+.newsletter {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 0.85rem;
+  margin-bottom: 0px;
+}
+.subscribeInput {
+  background-color: #fff;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border: none;
+  width: 40%;
+  height: 2.5rem;
+  padding: 0px 0.6rem;
+  transform: translateY(0.1rem);
+}
+.subscribeInput::placeholder {
+  font-size: 0.75rem;
+  color: rgba(0, 0, 0, 0.3);
+}
+.subscribeInput:focus {
+  border: none;
+  outline: none;
+}
+.subscribeBtn {
+  background-color: var(--clr-red);
+  border: 2px solid var(--clr-red);
+  color: #fff;
+  height: 2.5rem;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  font-size: 0.75rem;
+  /* margin-left: -0.25rem; */
+}
+.marketHeading {
+  padding-bottom: 0.6rem;
+  position: relative;
+}
+.marketHeading::before {
+  content: "";
+  width: 27%;
+  height: 3px;
+  background-color: var(--clr-red);
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index: 2;
+}
+.marketHeading::after {
+  content: "";
+  width: 35%;
+  height: 3px;
+  background-color: #f3a0a8;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index: 1;
+}
+.marketUl {
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 1.5rem;
+}
+.marketUl > li > a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+.footer-arrowbtn {
+  background-color: var(--clr-red);
+  border: none;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-arrowbtn > i {
+  color: #fff;
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+@media screen and (max-width: 992px) {
+  .footer-subscribe {
+    text-align: center;
+  }
+  .footer-arrowbtn {
+    margin-top: 2rem;
+    margin-left: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  .footer-left {
+    display: none;
+  }
+}
+/* End Footer */
+
+/* Bottom Footer */
+.All_right {
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 0px;
+}
+.EtoElogo {
+  text-decoration: none;
+  transition: all 0.3s;
+  color: #e84f59a0;
+}
+.TermsCondition {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 0px;
+}
+.social-icons {
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+.social-icons > li {
+  margin-right: 0.9rem;
+}
+.social-icons > li > a {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #feedee;
+  text-decoration: none;
+}
+.social-icons > li > a > i {
+  color: var(--clr-red);
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 992px) {
+  .All_right {
+    justify-content: center;
+  }
+  .social-icons {
+    justify-content: center;
+  }
+}
+/* End Bottom Footer */
